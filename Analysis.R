@@ -25,12 +25,12 @@ data |>
 csvData |>
     drop_na() |>
     select(Density, GrowthRate, pop2020, pop2022, continent) |>
-    ggplot(aes(GrowthRate, Density, color=continent, size = pop2022))+
+    ggplot(aes(GrowthRate, Density, color=continent))+
     geom_point()
 
 
 csvData |>
-    # drop_na() |>
+    drop_na() |>
     #select(Density, GrowthRate, pop2020, pop2022, continent) |>
     ggplot(mapping = aes(x = pop2022, y = area, color=continent))+
     geom_point()
