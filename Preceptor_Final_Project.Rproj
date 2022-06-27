@@ -11,3 +11,6 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+BuildType: Website
+WebsitePath: D:/Programming/Data Science and Artificial Intelligence/Preceptor_Final_Project
